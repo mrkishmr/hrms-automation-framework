@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 313257799
+              "duration": 1455899000
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:10"
+              "location": "tests\\steps\\loginSteps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 4280828199
+              "duration": 4737822300
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "the user logs in with valid credentials",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:15"
+              "location": "tests\\steps\\loginSteps.js:14"
             },
             "result": {
               "status": "passed",
-              "duration": 2313747099
+              "duration": 4258803200
             }
           },
           {
@@ -49,12 +49,11 @@
             "line": 6,
             "name": "user should be logged in and must redirect to the dashboard page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:22"
+              "location": "tests\\steps\\loginSteps.js:21"
             },
             "result": {
-              "status": "failed",
-              "duration": 119664000,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:24:52)"
+              "status": "passed",
+              "duration": 1003473599
             }
           },
           {
@@ -62,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 89500899
+              "duration": 559203499
             }
           }
         ],
@@ -81,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 331060900
+              "duration": 939699800
             }
           },
           {
@@ -90,11 +89,11 @@
             "line": 9,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:10"
+              "location": "tests\\steps\\loginSteps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 4393400799
+              "duration": 4926172999
             }
           },
           {
@@ -103,11 +102,11 @@
             "line": 10,
             "name": "the user tries to login with invalid credentials",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:27"
+              "location": "tests\\steps\\loginSteps.js:29"
             },
             "result": {
               "status": "passed",
-              "duration": 920123400
+              "duration": 3588740600
             }
           },
           {
@@ -116,12 +115,11 @@
             "line": 11,
             "name": "An Error Message must be displayed on the screen",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:34"
+              "location": "tests\\steps\\loginSteps.js:36"
             },
             "result": {
-              "status": "failed",
-              "duration": 3663599,
-              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:35:44)"
+              "status": "passed",
+              "duration": 867207200
             }
           },
           {
@@ -129,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 257009500
+              "duration": 438077599
             }
           }
         ],
@@ -148,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 268583300
+              "duration": 962902900
             }
           },
           {
@@ -157,11 +155,11 @@
             "line": 14,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:10"
+              "location": "tests\\steps\\loginSteps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 4304775499
+              "duration": 4717241599
             }
           },
           {
@@ -170,11 +168,11 @@
             "line": 15,
             "name": "the user logs in with only username",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:38"
+              "location": "tests\\steps\\loginSteps.js:43"
             },
             "result": {
               "status": "passed",
-              "duration": 912893499
+              "duration": 2271297899
             }
           },
           {
@@ -183,12 +181,11 @@
             "line": 16,
             "name": "a required field message must be displayed under password field",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:60"
+              "location": "tests\\steps\\loginSteps.js:64"
             },
             "result": {
-              "status": "failed",
-              "duration": 920500,
-              "error_message": "Error: toBeVisible can be only used with Locator object\n    at expectTypes (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\util.js:204:11)\n    at Object.toBeTruthy (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\toBeTruthy.js:27:31)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\matchers.js:133:39)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:143:20)\n    at C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:932\n    at Object.w [as 6f9654193eb500fe977b4ed06196d6f4$toBeVisible] (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:949)\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:63:48)"
+              "status": "passed",
+              "duration": 8360699
             }
           },
           {
@@ -196,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 73370600
+              "duration": 438754899
             }
           }
         ],
@@ -215,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 266301000
+              "duration": 889021600
             }
           },
           {
@@ -224,11 +221,11 @@
             "line": 19,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:10"
+              "location": "tests\\steps\\loginSteps.js:9"
             },
             "result": {
               "status": "passed",
-              "duration": 4053173999
+              "duration": 4365562299
             }
           },
           {
@@ -237,11 +234,11 @@
             "line": 20,
             "name": "the user logs in with only password",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:53"
+              "location": "tests\\steps\\loginSteps.js:57"
             },
             "result": {
               "status": "passed",
-              "duration": 930753600
+              "duration": 1282383000
             }
           },
           {
@@ -250,12 +247,11 @@
             "line": 21,
             "name": "a required field message must be displayed under username field",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:45"
+              "location": "tests\\steps\\loginSteps.js:50"
             },
             "result": {
-              "status": "failed",
-              "duration": 510699,
-              "error_message": "Error: toBeVisible can be only used with Locator object\n    at expectTypes (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\util.js:204:11)\n    at Object.toBeTruthy (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\toBeTruthy.js:27:31)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\matchers.js:133:39)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:143:20)\n    at C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:932\n    at Object.w [as 6f9654193eb500fe977b4ed06196d6f4$toBeVisible] (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:949)\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:48:48)"
+              "status": "passed",
+              "duration": 9574300
             }
           },
           {
@@ -263,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 265177300
+              "duration": 426343100
             }
           }
         ],

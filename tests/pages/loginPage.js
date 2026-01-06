@@ -33,17 +33,17 @@ class loginPage {
     await this.loginButton.click();
   }
 
-  async isErrorVisible() {
-    return await this.errorMessage.isVisible();
-  }
+  async waitForErrorMessage() {
+  await this.errorMessage.waitFor({ state: 'visible', timeout: 5000 });
+}
 
-  async isUsernameValidationVisible() {
-    return await this.usernameRequiredMessage.isVisible();
-  }
+async waitForUsernameRequiredMessage() {
+  await this.usernameRequiredMessage.waitFor({ state: 'visible', timeout: 5000 });
+}
 
-  async isPasswordValidationVisible() {
-    return await this.passwordRequiredMessage.isVisible();
-  }
+async waitForPasswordRequiredMessage() {
+  await this.passwordRequiredMessage.waitFor({ state: 'visible', timeout: 5000 });
+}
 }
 
 module.exports = loginPage;
