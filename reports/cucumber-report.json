@@ -1,0 +1,281 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication;logged-in-successfully-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Logged in Successfully with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 313257799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4280828199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2313747099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be logged in and must redirect to the dashboard page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:22"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 119664000,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:24:52)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 89500899
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;login-failed-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login failed with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 331060900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4393400799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user tries to login with invalid credentials",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 920123400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "An Error Message must be displayed on the screen",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 3663599,
+              "error_message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\nReceived: \u001b[31mfalse\u001b[39m\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:35:44)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 257009500
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;unable-to-login-when-only-username-is-given",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Unable to login when only username is Given",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 268583300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4304775499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user logs in with only username",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 912893499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "a required field message must be displayed under password field",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:60"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 920500,
+              "error_message": "Error: toBeVisible can be only used with Locator object\n    at expectTypes (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\util.js:204:11)\n    at Object.toBeTruthy (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\toBeTruthy.js:27:31)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\matchers.js:133:39)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:143:20)\n    at C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:932\n    at Object.w [as 6f9654193eb500fe977b4ed06196d6f4$toBeVisible] (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:949)\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:63:48)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 73370600
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;unable-to-login-when-only-password-is-given",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Unable to login when only password is Given",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 266301000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4053173999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user logs in with only password",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 930753600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "a required field message must be displayed under username field",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:45"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 510699,
+              "error_message": "Error: toBeVisible can be only used with Locator object\n    at expectTypes (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\util.js:204:11)\n    at Object.toBeTruthy (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\toBeTruthy.js:27:31)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\matchers.js:133:39)\n    at Object.toBeVisible (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:143:20)\n    at C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:932\n    at Object.w [as 6f9654193eb500fe977b4ed06196d6f4$toBeVisible] (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\common\\expectBundleImpl.js:338:949)\n    at Proxy.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\node_modules\\playwright\\lib\\matchers\\expect.js:224:24)\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\hrms-automation-framework\\tests\\steps\\loginSteps.js:48:48)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 265177300
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication",
+    "tags": [],
+    "uri": "tests\\features\\authentication.feature"
+  }
+]

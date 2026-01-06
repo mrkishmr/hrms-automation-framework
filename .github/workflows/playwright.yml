@@ -4,6 +4,8 @@ on: []
   #   branches: [ main, master ]
   # pull_request:
   #   branches: [ main, master ]
+env:
+  BASE_URL: https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
 jobs:
   test:
     timeout-minutes: 60
