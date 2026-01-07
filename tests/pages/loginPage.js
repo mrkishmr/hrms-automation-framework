@@ -1,5 +1,6 @@
-class loginPage {
-  
+const { expect } = require('@playwright/test');
+
+class LoginPage {
   constructor(page) {
     this.page = page;
 
@@ -9,41 +10,41 @@ class loginPage {
 
     this.errorMessage = page.locator('.oxd-alert-content-text');
 
-   this.usernameRequiredMessage = page.locator(
-  '//input[@name="username"]/ancestor::div[contains(@class,"oxd-input-group")]/span'
-);
+    this.usernameRequiredMessage = page.locator(
+      '//input[@name="username"]/ancestor::div[contains(@class,"oxd-input-group")]//span[contains(@class,"oxd-input-field-error-message")]'
+    );
 
     this.passwordRequiredMessage = page.locator(
-  '//input[@name="password"]/ancestor::div[contains(@class,"oxd-input-group")]/span'
-);
-
-  }
-
-  async open(baseUrl) {
-    await this.page.goto(baseUrl);
+      '//input[@name="password"]/ancestor::div[contains(@class,"oxd-input-group")]//span[contains(@class,"oxd-input-field-error-message")]'
+    );
   }
 
   async login(username, password) {
-    if (username !== '') {
-      await this.usernameInput.fill(username);
-    }
-    if (password !== '') {
-      await this.passwordInput.fill(password);
-    }
-    await this.loginButton.click();
-  }
+  console.log('LOGIN METHOD INPUTS →', { username, password });
+
+  await this.usernameInput.waitFor({ state: 'visible' });
+  await this.usernameInput.fill(username);
+
+  await this.passwordInput.waitFor({ state: 'visible' });
+  await this.passwordInput.fill(password);
+
+  await this.loginButton.click();
+}
 
   async waitForErrorMessage() {
-  await this.errorMessage.waitFor({ state: 'visible', timeout: 5000 });
+    await expect(this.errorMessage).toBeVisible();
+    await expect(this.errorMessage).toHaveText('Invalid credentials');
+  }
+
+  async waitForUsernameRequiredMessage() {
+    await expect(this.usernameRequiredMessage).toBeVisible();
+    await expect(this.usernameRequiredMessage).toHaveText('Required');
+  }
+
+  async waitForPasswordRequiredMessage() {
+    await expect(this.passwordRequiredMessage).toBeVisible();
+    await expect(this.passwordRequiredMessage).toHaveText('Required');
+  }
 }
 
-async waitForUsernameRequiredMessage() {
-  await this.usernameRequiredMessage.waitFor({ state: 'visible', timeout: 5000 });
-}
-
-async waitForPasswordRequiredMessage() {
-  await this.passwordRequiredMessage.waitFor({ state: 'visible', timeout: 5000 });
-}
-}
-
-module.exports = loginPage;
+module.exports = LoginPage;
