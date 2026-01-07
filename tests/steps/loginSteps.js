@@ -1,7 +1,7 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-const LoginPage = require('../pages/LoginPage');
-const DashboardPage = require('../pages/DashboardPage');
+const LoginPage = require('../pages/loginPage');
+const DashboardPage = require('../pages/dashboardPage');
 
 let dashboardPage;
 
