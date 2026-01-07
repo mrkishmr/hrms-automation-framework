@@ -3,7 +3,6 @@ const { Given, When, Then } = require('@cucumber/cucumber');
 const LoginPage = require('../pages/LoginPage');
 const DashboardPage = require('../pages/DashboardPage');
 
-let loginPage;
 let dashboardPage;
 
 Given('user is on the login page', async function () {
