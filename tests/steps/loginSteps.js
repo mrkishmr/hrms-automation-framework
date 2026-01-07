@@ -1,18 +1,17 @@
 const { Given, When, Then } = require('@cucumber/cucumber');
 
-const LoginPage = require('../pages/loginPage');
-const DashboardPage = require('../pages/dashboardPage');
+const LoginPage = require('../pages/LoginPage');
+const DashboardPage = require('../pages/DashboardPage');
 
 let loginPage;
 let dashboardPage;
 
 Given('user is on the login page', async function () {
-  loginPage = new LoginPage(this.page);
-  await loginPage.open(process.env.BASE_URL);
+   this.loginPage = new LoginPage(this.page);
 });
 
 When('the user logs in with valid credentials', async function () {
-  await loginPage.login(
+  await this.loginPage.login(
     process.env.VALID_USERNAME,
     process.env.VALID_PASSWORD
   );
@@ -27,7 +26,7 @@ Then(
 );
 
 When('the user tries to login with invalid credentials', async function () {
-  await loginPage.login(
+  await this.loginPage.login(
     process.env.INVALID_USERNAME,
     process.env.INVALID_PASSWORD
   );
@@ -36,12 +35,12 @@ When('the user tries to login with invalid credentials', async function () {
 Then(
   'An Error Message must be displayed on the screen',
   async function () {
-    await loginPage.waitForErrorMessage();
+    await this.loginPage.waitForErrorMessage();
   }
 );
 
 When('the user logs in with only username', async function () {
-  await loginPage.login(
+  await this.loginPage.login(
     process.env.VALID_USERNAME,
     ''
   );
@@ -50,12 +49,12 @@ When('the user logs in with only username', async function () {
 Then(
   'a required field message must be displayed under username field',
   async function () {
-    await loginPage.waitForUsernameRequiredMessage();
+    await this.loginPage.waitForUsernameRequiredMessage();
   }
 );
 
 When('the user logs in with only password', async function () {
-  await loginPage.login(
+  await this.loginPage.login(
     '',
     process.env.VALID_PASSWORD
   );
@@ -64,6 +63,6 @@ When('the user logs in with only password', async function () {
 Then(
   'a required field message must be displayed under password field',
   async function () {
-    await loginPage.waitForPasswordRequiredMessage();
+    await this.loginPage.waitForPasswordRequiredMessage();
   }
 );

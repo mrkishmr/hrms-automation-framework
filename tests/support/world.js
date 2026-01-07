@@ -4,6 +4,7 @@ class CustomWorld {
   constructor() {
     this.browser = null;
     this.context = null;
+    this.loginPage = null;
     this.page = null;
   }
 }
