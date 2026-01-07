@@ -1,21 +1,17 @@
 class DashboardPage {
-   constructor(page) {
+  constructor(page) {
     this.page = page;
 
-    this.dashboardHeader = page.locator(
-      'h6:has-text("Dashboard")'
-    );
+    this.dashboardHeader = page.locator('h6:has-text("Dashboard")');
+    this.userProfileMenu = page.locator('.oxd-userdropdown-name');
   }
 
-  async waitForDashboard() {
-    await this.page.waitForURL('**/dashboard/**', {
-      timeout: 15000
-    });
+  async waitForDashboardToLoad() {
+    await this.dashboardHeader.waitFor({ state: 'visible', timeout: 10000 });
+  }
 
-    await this.dashboardHeader.waitFor({
-      state: 'visible',
-      timeout: 15000
-    });
+  async isUserProfileVisible() {
+    await this.userProfileMenu.waitFor({ state: 'visible' });
   }
 }
 

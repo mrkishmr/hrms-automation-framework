@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7211050900
+              "duration": 7652761300
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 484199
+              "duration": 836400
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 273580299
+              "duration": 1914475500
             }
           },
           {
@@ -52,8 +52,9 @@
               "location": "tests\\steps\\loginSteps.js:19"
             },
             "result": {
-              "status": "passed",
-              "duration": 2412748299
+              "status": "failed",
+              "duration": 975800,
+              "error_message": "TypeError: dashboardPage.waitForDashboard is not a function\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\tests\\steps\\loginSteps.js:23:25)"
             }
           },
           {
@@ -61,7 +62,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 551227100
+              "duration": 1011616900
             }
           }
         ],
@@ -80,7 +81,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6496889900
+              "duration": 8094430600
             }
           },
           {
@@ -93,7 +94,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 522499
+              "duration": 693899
             }
           },
           {
@@ -106,7 +107,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1377257499
+              "duration": 1572678200
             }
           },
           {
@@ -119,7 +120,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 942509599
+              "duration": 1015296900
             }
           },
           {
@@ -127,7 +128,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 329519899
+              "duration": 415327300
             }
           }
         ],
@@ -146,7 +147,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6519103500
+              "duration": 8059016999
             }
           },
           {
@@ -159,7 +160,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 254300
+              "duration": 290600
             }
           },
           {
@@ -172,7 +173,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 277201100
+              "duration": 330560199
             }
           },
           {
@@ -185,7 +186,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 7614199
+              "duration": 20968500
             }
           },
           {
@@ -193,7 +194,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 309199100
+              "duration": 310144100
             }
           }
         ],
@@ -212,7 +213,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6540520700
+              "duration": 8279600300
             }
           },
           {
@@ -225,7 +226,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 150900
+              "duration": 235300
             }
           },
           {
@@ -238,7 +239,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 276945599
+              "duration": 315475899
             }
           },
           {
@@ -251,7 +252,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 8453600
+              "duration": 12036899
             }
           },
           {
@@ -259,7 +260,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 319539199
+              "duration": 447967700
             }
           }
         ],
@@ -273,5 +274,92 @@
     "name": "User Authentication",
     "tags": [],
     "uri": "tests\\features\\authentication.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-page;user-is-able-to-view-dashboard-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User is able to view Dashboard Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8609264800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is logged in to the portal",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "user should be on the dashboard page",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:4"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "dashboard header should be visible",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:9"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user profile menu should be visible",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:13"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 587361700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard Page",
+    "tags": [],
+    "uri": "tests\\features\\dashboard.feature"
   }
 ]
