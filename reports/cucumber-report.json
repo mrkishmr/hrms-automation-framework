@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 7652761300
+              "duration": 8264284200
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 836400
+              "duration": 1117599
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1914475500
+              "duration": 2046774400
             }
           },
           {
@@ -52,9 +52,8 @@
               "location": "tests\\steps\\loginSteps.js:19"
             },
             "result": {
-              "status": "failed",
-              "duration": 975800,
-              "error_message": "TypeError: dashboardPage.waitForDashboard is not a function\n    at CustomWorld.<anonymous> (C:\\Users\\Kishan\\Documents\\Playwright Practice\\HRMS-Automation-Framework\\tests\\steps\\loginSteps.js:23:25)"
+              "status": "passed",
+              "duration": 978285500
             }
           },
           {
@@ -62,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1011616900
+              "duration": 515008099
             }
           }
         ],
@@ -81,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8094430600
+              "duration": 11752634399
             }
           },
           {
@@ -94,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 693899
+              "duration": 542499
             }
           },
           {
@@ -107,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1572678200
+              "duration": 1452326499
             }
           },
           {
@@ -120,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1015296900
+              "duration": 1013300999
             }
           },
           {
@@ -128,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 415327300
+              "duration": 418789600
             }
           }
         ],
@@ -147,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8059016999
+              "duration": 8059066100
             }
           },
           {
@@ -160,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 290600
+              "duration": 296200
             }
           },
           {
@@ -173,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 330560199
+              "duration": 369907700
             }
           },
           {
@@ -186,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 20968500
+              "duration": 15566599
             }
           },
           {
@@ -194,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 310144100
+              "duration": 494403599
             }
           }
         ],
@@ -213,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8279600300
+              "duration": 7612629399
             }
           },
           {
@@ -226,7 +225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 235300
+              "duration": 334699
             }
           },
           {
@@ -239,7 +238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 315475899
+              "duration": 343905200
             }
           },
           {
@@ -252,7 +251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 12036899
+              "duration": 14734599
             }
           },
           {
@@ -260,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 447967700
+              "duration": 415645700
             }
           }
         ],
@@ -290,7 +289,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8609264800
+              "duration": 8303128700
             }
           },
           {
@@ -298,9 +297,12 @@
             "keyword": "Given ",
             "line": 4,
             "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
             "result": {
-              "status": "undefined",
-              "duration": 0
+              "status": "passed",
+              "duration": 1902704899
             }
           },
           {
@@ -312,8 +314,8 @@
               "location": "tests\\steps\\dashboardSteps.js:4"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 966809300
             }
           },
           {
@@ -325,8 +327,8 @@
               "location": "tests\\steps\\dashboardSteps.js:9"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5193400
             }
           },
           {
@@ -338,8 +340,8 @@
               "location": "tests\\steps\\dashboardSteps.js:13"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 4585499
             }
           },
           {
@@ -347,7 +349,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 587361700
+              "duration": 399836900
             }
           }
         ],
