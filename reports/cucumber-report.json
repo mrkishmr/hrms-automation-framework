@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 1455899000
+              "duration": 8264284200
             }
           },
           {
@@ -23,11 +23,11 @@
             "line": 4,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:9"
+              "location": "tests\\steps\\loginSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 4737822300
+              "duration": 1117599
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "the user logs in with valid credentials",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:14"
+              "location": "tests\\steps\\loginSteps.js:12"
             },
             "result": {
               "status": "passed",
-              "duration": 4258803200
+              "duration": 2046774400
             }
           },
           {
@@ -49,11 +49,11 @@
             "line": 6,
             "name": "user should be logged in and must redirect to the dashboard page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:21"
+              "location": "tests\\steps\\loginSteps.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1003473599
+              "duration": 978285500
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 559203499
+              "duration": 515008099
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 939699800
+              "duration": 11752634399
             }
           },
           {
@@ -89,11 +89,11 @@
             "line": 9,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:9"
+              "location": "tests\\steps\\loginSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 4926172999
+              "duration": 542499
             }
           },
           {
@@ -102,11 +102,11 @@
             "line": 10,
             "name": "the user tries to login with invalid credentials",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:29"
+              "location": "tests\\steps\\loginSteps.js:27"
             },
             "result": {
               "status": "passed",
-              "duration": 3588740600
+              "duration": 1452326499
             }
           },
           {
@@ -115,11 +115,11 @@
             "line": 11,
             "name": "An Error Message must be displayed on the screen",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:36"
+              "location": "tests\\steps\\loginSteps.js:34"
             },
             "result": {
               "status": "passed",
-              "duration": 867207200
+              "duration": 1013300999
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 438077599
+              "duration": 418789600
             }
           }
         ],
@@ -146,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 962902900
+              "duration": 8059066100
             }
           },
           {
@@ -155,11 +155,11 @@
             "line": 14,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:9"
+              "location": "tests\\steps\\loginSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 4717241599
+              "duration": 296200
             }
           },
           {
@@ -168,11 +168,11 @@
             "line": 15,
             "name": "the user logs in with only username",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:43"
+              "location": "tests\\steps\\loginSteps.js:41"
             },
             "result": {
               "status": "passed",
-              "duration": 2271297899
+              "duration": 369907700
             }
           },
           {
@@ -181,11 +181,11 @@
             "line": 16,
             "name": "a required field message must be displayed under password field",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:64"
+              "location": "tests\\steps\\loginSteps.js:62"
             },
             "result": {
               "status": "passed",
-              "duration": 8360699
+              "duration": 15566599
             }
           },
           {
@@ -193,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 438754899
+              "duration": 494403599
             }
           }
         ],
@@ -212,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 889021600
+              "duration": 7612629399
             }
           },
           {
@@ -221,11 +221,11 @@
             "line": 19,
             "name": "user is on the login page",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:9"
+              "location": "tests\\steps\\loginSteps.js:8"
             },
             "result": {
               "status": "passed",
-              "duration": 4365562299
+              "duration": 334699
             }
           },
           {
@@ -234,11 +234,11 @@
             "line": 20,
             "name": "the user logs in with only password",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:57"
+              "location": "tests\\steps\\loginSteps.js:55"
             },
             "result": {
               "status": "passed",
-              "duration": 1282383000
+              "duration": 343905200
             }
           },
           {
@@ -247,11 +247,11 @@
             "line": 21,
             "name": "a required field message must be displayed under username field",
             "match": {
-              "location": "tests\\steps\\loginSteps.js:50"
+              "location": "tests\\steps\\loginSteps.js:48"
             },
             "result": {
               "status": "passed",
-              "duration": 9574300
+              "duration": 14734599
             }
           },
           {
@@ -259,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 426343100
+              "duration": 415645700
             }
           }
         ],
@@ -273,5 +273,95 @@
     "name": "User Authentication",
     "tags": [],
     "uri": "tests\\features\\authentication.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-page;user-is-able-to-view-dashboard-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User is able to view Dashboard Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8303128700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1902704899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "user should be on the dashboard page",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 966809300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "dashboard header should be visible",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5193400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user profile menu should be visible",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4585499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 399836900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard Page",
+    "tags": [],
+    "uri": "tests\\features\\dashboard.feature"
   }
 ]

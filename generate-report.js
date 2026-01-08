@@ -1,5 +1,13 @@
 const reporter = require('cucumber-html-reporter');
 
+const browserEnv = process.env.BROWSER || 'chromium';
+
+const browserLabel =
+  browserEnv === 'edge' ? 'Microsoft Edge' :
+  browserEnv === 'firefox' ? 'Firefox' :
+  browserEnv === 'webkit' ? 'WebKit (Safari)' :
+  'Chromium';
+
 const options = {
   theme: 'bootstrap',
   jsonFile: './reports/cucumber-report.json',
@@ -8,15 +16,10 @@ const options = {
   scenarioTimestamp: true,
   launchReport: false,
   metadata: {
-  browser: {
-    name: 'Microsoft Edge',
-    version: 'latest'
-  },
-  platform: {
-    name: process.platform
-  },
-  executed: process.env.CI ? 'CI' : 'Local'
-}
+    Browser: browserLabel,
+    Platform: process.platform,
+    Executed: process.env.CI === 'true' ? 'CI' : 'Local'
+  }
 };
 
 reporter.generate(options);
