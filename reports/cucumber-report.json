@@ -1,0 +1,760 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "user-authentication;logged-in-successfully-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Logged in Successfully with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9396021500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1261899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "the user logs in with valid credentials",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2120067100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "user should be logged in and must redirect to the dashboard page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 917943900
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 995939199
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;login-failed-with-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Login failed with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9412136399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 768500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user tries to login with invalid credentials",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1924635700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "An Error Message must be displayed on the screen",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 945674800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 595846400
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;unable-to-login-when-only-username-is-given",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Unable to login when only username is Given",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 7846713199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 291199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the user logs in with only username",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:41"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315175900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "a required field message must be displayed under password field",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21563300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 694381000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "user-authentication;unable-to-login-when-only-password-is-given",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Unable to login when only password is Given",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9307406399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "user is on the login page",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 393900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user logs in with only password",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:55"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 308934799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "a required field message must be displayed under username field",
+            "match": {
+              "location": "tests\\steps\\loginSteps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19129600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 734158800
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "user-authentication",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "User Authentication",
+    "tags": [],
+    "uri": "tests\\features\\authentication.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-page;user-is-able-to-view-dashboard-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "User is able to view Dashboard Page",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8234154900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2084580999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "user should be on the dashboard page",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 907968800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "dashboard header should be visible",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11699899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user profile menu should be visible",
+            "match": {
+              "location": "tests\\steps\\dashboardSteps.js:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10158200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 599387900
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-page",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard Page",
+    "tags": [],
+    "uri": "tests\\features\\dashboard.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "employee-management;create-a-new-employee",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Create a new employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 10672882700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2036137699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user creates a new employee",
+            "match": {
+              "location": "tests\\steps\\employeeSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6057282900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the employee should be created successfully",
+            "match": {
+              "location": "tests\\steps\\employeeSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6246074099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 675401799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@create",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "employee-management;search-for-an-existing-employee",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search for an existing employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11138777600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2082897299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user searches for the employee",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the employee should be visible in the results",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 605564400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@read",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "employee-management;update-employee-details",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Update employee details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9622629799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1907653099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user updates the employee last name",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the employee details should be updated successfully",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 680575599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@update",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "employee-management;delete-an-existing-employee",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Delete an existing employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8966659800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1949965400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user deletes the employee",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the employee should be removed from the system",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 627229500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@delete",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "employee-management",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Employee Management",
+    "tags": [
+      {
+        "name": "@employee",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\employee.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "logout;user-logs-out-successfully",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs out successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8764816500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1898855799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user logs out",
+            "match": {
+              "location": "tests\\steps\\logoutSteps.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3386096499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "user should be redirected to the login page",
+            "match": {
+              "location": "tests\\steps\\logoutSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 927857599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 736246599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 1
+          },
+          {
+            "name": "@auth",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "logout",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Logout",
+    "tags": [
+      {
+        "name": "@smoke",
+        "line": 1
+      },
+      {
+        "name": "@auth",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\logout.feature"
+  }
+]
