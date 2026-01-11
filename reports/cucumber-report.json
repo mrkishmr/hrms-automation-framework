@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 11531444900
+              "duration": 9396021500
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1910200
+              "duration": 1261899
             }
           },
           {
@@ -40,7 +40,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3615200699
+              "duration": 2120067100
             }
           },
           {
@@ -53,7 +53,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2060357399
+              "duration": 917943900
             }
           },
           {
@@ -61,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 634752599
+              "duration": 995939199
             }
           }
         ],
@@ -80,7 +80,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8210487400
+              "duration": 9412136399
             }
           },
           {
@@ -93,7 +93,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 280799
+              "duration": 768500
             }
           },
           {
@@ -106,7 +106,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2941507799
+              "duration": 1924635700
             }
           },
           {
@@ -119,7 +119,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1995699199
+              "duration": 945674800
             }
           },
           {
@@ -127,7 +127,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 407907699
+              "duration": 595846400
             }
           }
         ],
@@ -146,7 +146,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8773112800
+              "duration": 7846713199
             }
           },
           {
@@ -159,7 +159,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 205800
+              "duration": 291199
             }
           },
           {
@@ -172,7 +172,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 275902799
+              "duration": 315175900
             }
           },
           {
@@ -185,7 +185,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 23164600
+              "duration": 21563300
             }
           },
           {
@@ -193,7 +193,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 419263899
+              "duration": 694381000
             }
           }
         ],
@@ -212,7 +212,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 8257275999
+              "duration": 9307406399
             }
           },
           {
@@ -225,7 +225,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 253699
+              "duration": 393900
             }
           },
           {
@@ -238,7 +238,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 315369500
+              "duration": 308934799
             }
           },
           {
@@ -251,7 +251,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 19060900
+              "duration": 19129600
             }
           },
           {
@@ -259,7 +259,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 330590599
+              "duration": 734158800
             }
           }
         ],
@@ -289,7 +289,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 6462077499
+              "duration": 8234154900
             }
           },
           {
@@ -302,7 +302,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 265512200
+              "duration": 2084580999
             }
           },
           {
@@ -315,7 +315,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3162699399
+              "duration": 907968800
             }
           },
           {
@@ -328,7 +328,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 5235499
+              "duration": 11699899
             }
           },
           {
@@ -341,7 +341,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 4042700
+              "duration": 10158200
             }
           },
           {
@@ -349,7 +349,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 360270800
+              "duration": 599387900
             }
           }
         ],
@@ -369,17 +369,17 @@
     "elements": [
       {
         "description": "",
-        "id": "logout;user-logs-out-successfully",
+        "id": "employee-management;create-a-new-employee",
         "keyword": "Scenario",
-        "line": 4,
-        "name": "User logs out successfully",
+        "line": 8,
+        "name": "Create a new employee",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 9589107300
+              "duration": 10672882700
             }
           },
           {
@@ -392,7 +392,305 @@
             },
             "result": {
               "status": "passed",
-              "duration": 2030807600
+              "duration": 2036137699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user creates a new employee",
+            "match": {
+              "location": "tests\\steps\\employeeSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6057282900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the employee should be created successfully",
+            "match": {
+              "location": "tests\\steps\\employeeSteps.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6246074099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 675401799
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@create",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "employee-management;search-for-an-existing-employee",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Search for an existing employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 11138777600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2082897299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "the user searches for the employee",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the employee should be visible in the results",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 605564400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@read",
+            "line": 12
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "employee-management;update-employee-details",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Update employee details",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 9622629799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1907653099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user updates the employee last name",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the employee details should be updated successfully",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 680575599
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@update",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "employee-management;delete-an-existing-employee",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Delete an existing employee",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8966659800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1949965400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user deletes the employee",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "the employee should be removed from the system",
+            "result": {
+              "status": "undefined",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 627229500
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@employee",
+            "line": 1
+          },
+          {
+            "name": "@delete",
+            "line": 22
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "employee-management",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Employee Management",
+    "tags": [
+      {
+        "name": "@employee",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\employee.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "logout;user-logs-out-successfully",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "User logs out successfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 8764816500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user is logged in to the portal",
+            "match": {
+              "location": "tests\\steps\\commonLoginStep.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1898855799
             }
           },
           {
@@ -405,7 +703,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3481294800
+              "duration": 3386096499
             }
           },
           {
@@ -418,7 +716,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 954556900
+              "duration": 927857599
             }
           },
           {
@@ -426,7 +724,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 389592900
+              "duration": 736246599
             }
           }
         ],
